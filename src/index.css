@@ -9,6 +9,13 @@
 
 p {
   margin: 0;
+  padding: 0;
+}
+
+.h3class {
+  font-size: 12pt;
+  padding: 0px 10px 0px 10px;
+  font-weight: bold;
 }
 
 header {
@@ -18,7 +25,7 @@ header {
   padding: 10px;
   background-color: black;
   height: 75px;
-  min-width: 1000px;
+  /* min-width: 1000px; */
   border-bottom: 0.5px solid red;
 }
 
@@ -50,28 +57,33 @@ nav a {
   background-image: url("./images/main-image.jpg");
   background-size: cover;
   min-height: 500px;
-  min-width: 1000px;
+  /* min-width: 1000px; */
   margin-bottom: 30px;
 }
 
 .main-page-top-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .welcome-text {
   color: white;
+  text-align: center;
   font-size: 22pt;
   font-weight: bold;
-  max-width: 400px;
+  /* max-width: 400px; */
+  padding-left: 10px;
+  margin-top: 20px;
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  max-width: 175px;
+  max-height: 175px;
   border-radius: 100px;
   border: 1px solid white;
+  margin-right: 10px;
 }
 
 .profile-pic-sm {
@@ -98,7 +110,7 @@ nav a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  min-width: 1000px;
+  /* min-width: 1000px; */
 }
 
 .main-page-mid-2 {
@@ -106,7 +118,7 @@ nav a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  min-width: 1000px;
+  /* min-width: 1000px; */
   /* max-width: 1000px; */
   background-color: lightgray;
 }
@@ -124,9 +136,11 @@ nav a {
   justify-content: space-evenly;
   align-items: center;
   background-color: lightskyblue;
-  width: 450px;
+  max-width: 400px;
+  min-width: 350px;
   height: 300px;
   margin-left: 10px;
+  margin-top: 10px;
   margin-right: 10px;
   border-radius: 12px;
   box-shadow: 0px 4px 8px #797979;
@@ -135,6 +149,7 @@ nav a {
 .square-flex {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
 }
 

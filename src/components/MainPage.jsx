@@ -80,11 +80,11 @@ const MainPage = () => {
         </div>
         <div className="square-flex">
           <button className="blue-square" onClick={handleButtonClick}>
-            <h3>AWS Cloud Foundations graduate</h3>
+            <p className="h3class">AWS Cloud Foundations graduate</p>
             <img src={awsImg} alt="AWS img" width="200px" />
           </button>
           <button className="blue-square" onClick={handleButtonClick}>
-            <h3>Volunteer Work</h3>
+            <p className="h3class">Volunteer Work</p>
             <img
               src={genesisImg}
               alt="Genesis pic"
@@ -95,7 +95,7 @@ const MainPage = () => {
         </div>
         <div className="square-flex">
           <button className="blue-square" onClick={handleButtonClick}>
-            <h3>Personal Project - 'Ezoos.biz'</h3>
+            <p className="h3class">Personal Project - 'Ezoos.biz'</p>
             <img
               src={ezoosImg}
               alt="ezoos img"
@@ -104,7 +104,7 @@ const MainPage = () => {
             />
           </button>
           <button className="blue-square" onClick={handleButtonClick}>
-            <h3>School Project - The Dog API</h3>
+            <p className="h3class">School Project - The Dog API</p>
             <img
               src={dogapiImg}
               alt="dog api img"
