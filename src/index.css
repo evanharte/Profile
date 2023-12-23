@@ -156,8 +156,28 @@ nav a {
 .resume {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  max-width: 500px;
+}
+
+hr {
+  max-width: 500px;
+}
+
+.grey-header {
+  color: grey;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.greyer {
+  color: grey;
 }
 
 .more-details-h5 {
